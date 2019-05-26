@@ -10,5 +10,9 @@ public class Zad8 {
 
         Student student1 = (Student) context.getBean("student1");
         System.out.println(student1);
+
+        Message textMessage = (Message) context.getBean("textMessage");
+        System.out.println(textMessage.getText());
+        System.out.println(textMessage.isExamPass());
     }
 }

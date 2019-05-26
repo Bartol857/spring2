@@ -21,6 +21,8 @@
         <property name="lastName" value="#{person1.lastName}"/>
     </bean>
 
+    <bean id="textMessage" class="pl.sda.Message"/>
+
 
 
     <context:annotation-config/>
